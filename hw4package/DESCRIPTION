@@ -1,0 +1,17 @@
+Package: hw4package
+Title: Creates two functions to get samples from select distribution or plot select distributions. 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Kevin",
+           family = "Shrawder",
+           role = c("aut", "cre"),
+           email = "ks7187a@american.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package completes the requirements for the fourth homework in Professor Ressler's STAT 613 class at American University.
+License: Proprietary
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    spelling
+Language: en-US
+RoxygenNote: 7.0.2

@@ -1,0 +1,52 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# hw4package
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of hw4package is to get a good grade on Professor Ressler's homework 4 assignment for STAT 613 at American University. This package accomplishes this by create two functions: one that generates random samples from 4 different distributions, and another that generates plots of histograms for random samples from 4 different distributions. 
+
+## Installation
+
+You can install the released version of hw4package from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("hw4package")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("STAT-413-613-Spring-2020/hw-04-packages-kshrawder")
+```
+## Usage
+
+This is a basic example of the get_samples_dist function which returns the generated random samples from a selection of 4 different distributions. 
+
+```{r example}
+library(hw4package)
+get_samples_dist('normal', 10)
+```
+
+
+This is a basic example of the get_plots_dist() function which returns a histogram of the generated random samples from a selection of 4 different distributions. 
+
+```{r cars}
+get_plots_dist('normal', 10, bins = 5)
+```
+
